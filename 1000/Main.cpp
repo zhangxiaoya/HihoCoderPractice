@@ -2,7 +2,10 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << "Hiho Coder"<<std::endl;
-	system("Pause");
+	int a, b;
+	while (std::cin >> a >> b)
+	{
+		std::cout << a + b << std::endl;;
+	}
 	return 0;
 }
