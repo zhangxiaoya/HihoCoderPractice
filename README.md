@@ -1,6 +1,6 @@
 # HihoCoderPractice
 
-用于练习Hiho。
+用于练习Hiho， HihoCoder的地址在[http://hihocoder.com/](http://hihocoder.com/)。
 
 ## 练习记录
 
