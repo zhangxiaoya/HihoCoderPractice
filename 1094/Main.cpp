@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 		{
 			for (auto c = 0; c <= M - 3; ++c)
 			{
-				for (auto i = 0; i < 3; ++i)
+				for (auto i = 0; i < 4; ++i)
 				{
 					auto allFlag = true;
 					for (auto j = 0; j < 3; ++j)
@@ -83,7 +83,6 @@ int main(int argc, char* argv[])
 					}
 					RightRotated(center);
 				}
-				RightRotated(center);
 			}
 		}
 
