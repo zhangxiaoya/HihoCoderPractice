@@ -51,9 +51,9 @@ int main(int argc, char* argv[])
 			}
 		}
 
-		for (auto r = 0; r <= N - 3; ++r)
+		for (auto r = 0; r < N - 2; ++r)
 		{
-			for (auto c = 0; c <= M - 3; ++c)
+			for (auto c = 0; c < M - 2; ++c)
 			{
 				for (auto i = 0; i < 4; ++i)
 				{
