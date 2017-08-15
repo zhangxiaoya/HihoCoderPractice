@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1000", "1000\1000.vcxproj", "{087B0F00-E8BA-4B90-B1DB-41D4F319BABD}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1082", "1082\1082.vcxproj", "{9788F7EA-3183-4A8B-8E91-A1A7778E310C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1094", "1094\1094.vcxproj", "{E471F4FC-B58B-424A-A9CF-6C2AC703A467}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hiho163", "Hiho163\Hiho163.vcxproj", "{ED074882-01A9-4F90-A743-5624D58E5C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,8 +63,19 @@ Global
 		{E471F4FC-B58B-424A-A9CF-6C2AC703A467}.Release|x64.Build.0 = Release|x64
 		{E471F4FC-B58B-424A-A9CF-6C2AC703A467}.Release|x86.ActiveCfg = Release|Win32
 		{E471F4FC-B58B-424A-A9CF-6C2AC703A467}.Release|x86.Build.0 = Release|Win32
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Debug|x64.ActiveCfg = Debug|x64
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Debug|x64.Build.0 = Debug|x64
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Debug|x86.Build.0 = Debug|Win32
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Release|x64.ActiveCfg = Release|x64
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Release|x64.Build.0 = Release|x64
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Release|x86.ActiveCfg = Release|Win32
+		{ED074882-01A9-4F90-A743-5624D58E5C64}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548BD1B0-42C7-4F60-A6C7-1A9B8C7C9BC1}
 	EndGlobalSection
 EndGlobal
