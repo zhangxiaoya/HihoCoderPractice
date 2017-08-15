@@ -5,11 +5,9 @@
 int main(int argc, char* argv[])
 {
 	std::string str;
-	std::vector<std::string> output;
 	while (std::getline(std::cin, str))
 	{
-		std::string temp = str;
-		std::string result = "";
+		auto result = str;
 		for(auto it = str.begin();it != str.end();++it)
 		{
 			if(*it >= 'A' && *it <= 'Z')
@@ -19,17 +17,14 @@ int main(int argc, char* argv[])
 
 		if(pos != std::string::npos)
 		{
-			while (pos != -1)
+			while (pos != std::string::npos)
 			{
-				auto nextPos = pos + 9;
-				result += temp.substr(0, pos) + "fjxmlhx" + temp.substr(nextPos, str.length());
-				pos = str.find("marshtomp", nextPos);
+				result.replace(pos,9,"fjxmlhx");
+				str.replace(pos,9,"fjxmlhx");
+				pos = str.find("marshtomp", pos + 7);
 			}
 		}
-		output.push_back(result);
+		std::cout << result << std::endl;;
 	}
-	for (int i = 0; i < output.size(); ++i)
-		std::cout << output[i] << std::endl;
 	return 0;
 }
-
